@@ -3,7 +3,7 @@
 To install, run:
 
 ```bash
-mkdkr -p ~/Library/Application Support/MailMate/Bundles'
-cd ~/Library/Application Support/MailMate/Bundles
-git clone https://github.com/ttscoff/MailMateMate.mmBundle.git
+mkdkr -p '~/Library/Application Support/MailMate/Bundles'
+cd '~/Library/Application Support/MailMate/Bundles'
+git clone https://github.com/ttscoff/VimR.mmBundle.git
 ```
