@@ -1,0 +1,18 @@
+#!/bin/sh
+
+##
+# edit: backend script of the MailMate vs-code bundle, used to invoke the
+# Visual Studio Code editor (code.visualstudio.com)
+#
+# Based on the Atom bundle which is based on the MacVim and TextMate bundles
+##
+
+PATH=$PATH:/usr/local/bin/:/opt/homebrew/bin/:$HOME/bin
+
+if which -s vimr; then
+    vimr --wait --neovim "$MM_EDIT_FILEPATH"
+else
+    osascript -e "tell app \"MailMate\" to display dialog \"vimr command not found\" buttons	\"OK\" default button 1 with title \"Unable to locate vimr\"" > /dev/null 2>&1 &
+fi
+osascript -e 'tell app "MailMate" to activate'
+

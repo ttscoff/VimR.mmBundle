@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<string>#!/bin/sh
+"$MM_BUNDLE_SUPPORT/bin/edit" &gt;/dev/null 2&gt;&amp;1 &amp;</string>
+	<key>keyEquivalent</key>
+	<string>^O</string>
+	<key>name</key>
+	<string>Edit</string>
+	<key>saveForEditing</key>
+	<string>1</string>
+	<key>uuid</key>
+	<string>3BAE8029-7B61-4C0E-8231-826B9ACF6CB4</string>
+</dict>
+</plist>
