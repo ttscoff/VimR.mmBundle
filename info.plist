@@ -8,6 +8,13 @@
 		<string>A9831D90-9574-4187-8953-90340798E5A3</string>
 		<key>description</key>
 		<string>Edit message in VimR (neovim)</string>
+		<key>source</key>
+		<dict>
+			<key>method</key>
+			<string>git</string>
+			<key>url</key>
+			<string>https://github.com/ttscoff/VimR.mmbundle.git</string>
+		</dict>
 		<key>contactName</key>
 		<string>Brett Terpstra</string>
 		<key>contactEmailRot13</key>
